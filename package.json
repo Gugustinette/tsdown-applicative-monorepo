@@ -1,0 +1,25 @@
+{
+  "name": "tsdown-applicative-monorepo",
+  "version": "0.0.1",
+  "description": "An example applicative monorepo powered by tsdown",
+  "scripts": {
+    "build": "build"
+  },
+  "author": "Augustin Mercier <gugustinette@proton.me>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "@oxc-node/core": "^0.0.27",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "rolldown-vite": "^6.3.12",
+    "tsdown": "^0.12.2",
+    "vue": "^3.5.14"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.2",
+    "hono": "^4.7.10"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@mymonorepo/my-package",
+  "version": "0.0.A",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsdown src/index.ts"
+  }
+}
